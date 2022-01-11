@@ -1,0 +1,17 @@
+body {
+  background-color: #fef9f3;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.image_conainer {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+body {
+  background-color: #fef9f3;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+/* ------style portrætbillede til cv ---------*/

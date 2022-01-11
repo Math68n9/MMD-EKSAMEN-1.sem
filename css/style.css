@@ -1,0 +1,131 @@
+/* ________Menu________ */
+.nav,
+ul,
+li {
+  font-weight: 3rem;
+  font-family: poppins, sans-serif;
+  color: rgb(8, 19, 55);
+}
+
+@media (min-width: 700px) {
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: flex;
+    color: #c7bbc8;
+    font-size: 2rem;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: auto;
+  top: 0%;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+body {
+  background-color: rgba(240, 233, 212);
+}
+
+#start_knap {
+  position: absolute;
+  top: 33vw;
+  left: 43vw;
+  font-size: 4vw;
+  padding: 2vw;
+  font-family: monospace;
+  background-color: blueviolet;
+  cursor: pointer;
+
+  animation-name: puls_kf;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/* ----animation--- */
+@keyframes puls_kf {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* til mobil størrelse */
+@media (max-width: 500px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay span,
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay span:hover,
+.overlay span:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
