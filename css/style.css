@@ -7,6 +7,10 @@ li {
   color: rgb(8, 19, 55);
 }
 
+.image_container img {
+  width: 100%;
+}
+
 @media (min-width: 700px) {
   ul {
     list-style-type: none;
