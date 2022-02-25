@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149" height="191" viewBox="0 0 149 191">
+  <defs>
+    <clipPath id="clip-favicon">
+      <rect width="149" height="191"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" clip-path="url(#clip-favicon)">
+    <rect width="149" height="191" fill="#fef9f3"/>
+    <g id="Group_86" data-name="Group 86" transform="translate(-75 -59)">
+      <g id="Group_1" data-name="Group 1" transform="translate(91.682 69.191)">
+        <text id="M" transform="translate(-1.682 99.809)" fill="#0e0d0d" font-size="100" font-family="EthnocentricLt-Regular, Ethnocentric"><tspan x="0" y="0">M</tspan></text>
+        <text id="a" transform="translate(10.318 149.809)" fill="#0e0d0d" font-size="90" font-family="EthnocentricLt-Regular, Ethnocentric"><tspan x="0" y="0">A</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

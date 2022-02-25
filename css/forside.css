@@ -1,6 +1,12 @@
+@import url("https://use.typekit.net/akl3toe.css");
+a {
+  font-size: 1rem;
+  font-family: "poppins";
+  color: #c7bbc8;
+}
+
 body {
-  background-image: url("/forside.png");
+  background-image: url("../forside.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: ;
 }

@@ -1,3 +1,12 @@
+@import url("https://use.typekit.net/akl3toe.css");
+.nav,
+ul,
+li {
+  font-weight: 3rem;
+  font-family: "poppins";
+  color: rgb(8, 19, 55);
+}
+
 body {
   background-color: #fef9f3;
 }
@@ -14,4 +23,9 @@ section {
 
 img {
   width: 100%;
+}
+a {
+  font-size: 1rem;
+  font-family: "poppins";
+  color: #c7bbc8;
 }

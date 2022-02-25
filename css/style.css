@@ -1,11 +1,30 @@
 /* ________Menu________ */
-.nav,
-ul,
-li {
-  font-weight: 3rem;
-  font-family: poppins, sans-serif;
-  color: rgb(8, 19, 55);
+a {
+  font-size: 1rem;
+  font-family: "poppins";
+  color: #c7bbc8;
 }
+
+h1,
+h2,
+h3,
+p {
+  font-family: "poppins";
+}
+h1 {
+  color: #f0d4ec;
+}
+h2 {
+  color: #0612bb;
+}
+h3 {
+  color: #5d5149;
+}
+
+@import url("https://use.typekit.net/akl3toe.css");
+/* :root {
+  --ff-p: "poppins";
+} */
 
 .image_container img {
   width: 100%;
@@ -52,7 +71,7 @@ body {
   left: 43vw;
   font-size: 4vw;
   padding: 2vw;
-  font-family: monospace;
+  font-family: "poppins";
   background-color: blueviolet;
   cursor: pointer;
 
