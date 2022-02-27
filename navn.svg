@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="889" viewBox="0 0 97 889">
+  <defs>
+    <clipPath id="clip-navn">
+      <rect width="97" height="889"/>
+    </clipPath>
+  </defs>
+  <g id="navn" clip-path="url(#clip-navn)">
+    <rect width="97" height="889" fill="#fef9f3"/>
+    <text id="MATHILDE_GRAM_ANDERSEN" data-name="MATHILDE GRAM ANDERSEN" transform="matrix(0, -1, -1, 0, 28, 15)" fill="#081337" font-size="63" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="-0.01em"><tspan x="-844.326" y="0">MATHILDE GRAM ANDERSEN</tspan></text>
+  </g>
+</svg>

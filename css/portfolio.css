@@ -4,9 +4,12 @@ ul,
 li {
   font-weight: 3rem;
   font-family: "poppins";
-  color: rgb(8, 19, 55);
+  color: #081337;
 }
-
+header {
+  color: #5d5149;
+  font-family: "poppins";
+}
 body {
   background-color: #fef9f3;
 }
@@ -19,6 +22,8 @@ section {
 
 .image_conainer {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 img {
@@ -29,3 +34,16 @@ a {
   font-family: "poppins";
   color: #c7bbc8;
 }
+
+/* .box {
+  width: 200px;
+  height: 70px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.static {
+  background-color: #081337;
+} */

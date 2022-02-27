@@ -4,7 +4,10 @@ a {
   font-family: "poppins";
   color: #c7bbc8;
 }
-
+header {
+  color: #5d5149;
+  font-family: "poppins";
+}
 body {
   background-color: #fef9f3;
 }
@@ -18,4 +21,9 @@ main {
 
 .p {
   font-family: "poppins";
+}
+.dagligdag {
+  font-family: "poppins";
+  font-weight: medium;
+  font-size: 1.5rem;
 }

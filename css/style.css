@@ -13,12 +13,10 @@ p {
 }
 h1 {
   color: #f0d4ec;
+  font-size: 2rem;
 }
 h2 {
-  color: #0612bb;
-}
-h3 {
-  color: #5d5149;
+  color: #081337;
 }
 
 @import url("https://use.typekit.net/akl3toe.css");
@@ -58,7 +56,7 @@ header {
   top: auto;
   top: 0%;
   justify-content: center;
-  background-color: antiquewhite;
+  background-color: #f0d4ec;
 }
 
 body {
