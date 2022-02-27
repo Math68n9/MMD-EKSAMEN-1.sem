@@ -27,3 +27,8 @@ main {
   font-weight: medium;
   font-size: 1.5rem;
 }
+
+.image_container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
