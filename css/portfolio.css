@@ -17,7 +17,12 @@ body {
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  gap: 50px;
+}
+#first_section {
+  border: none;
 }
 
 .image_conainer {
@@ -54,4 +59,11 @@ a {
 }
 .cookie {
   width: 50%;
+}
+
+@media (max-width: 700px) {
+  section {
+    grid-template-columns: 1fr;
+    padding: 10px 0px;
+  }
 }

@@ -10,8 +10,16 @@ a {
 }
 
 body {
-  background-image: url("../forside.png");
+  /* background-image: url("../forside.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fef9f3;
+  background-position: top;
+  overflow-x: hidden;
+}
+
+@media (max-width: 500px) {
+  img {
+    padding-top: 140px;
+  }
 }
